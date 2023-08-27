@@ -1,0 +1,33 @@
+.navbarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #202631;
+  border-radius: 0 25px 25px 0;
+  width: 6em;
+  height: 100vh;
+  padding: 20px;
+}
+
+.navbarList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarItem {
+  margin-bottom: 1.2rem;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+.navbarItem a{
+    color: #959596;
+}
+
+.navbarItem:last-child {
+  border-top: 1px solid #959596;
+  padding-top: 30px;
+  margin-top: 20px;
+}
