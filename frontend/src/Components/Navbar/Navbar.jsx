@@ -29,37 +29,37 @@ const Navbar = () => {
       <Link to="/">Logo</Link>
       <ul className={styles.navbarList} id="navbarList">
         <li className={styles.navbarItem}>
-          <Link to="/">
+          <Link className={page === "home" ? styles.activeNav : styles.navLink} to="/">
             <AiFillHome />
           </Link>
         </li>
         <li className={styles.navbarItem}>
-          <Link to="notifications">
+          <Link className={page === "notifications" ? styles.activeNav : styles.navLink} to="notifications">
             <IoMdNotificationsOutline />
           </Link>
         </li>
         <li className={styles.navbarItem}>
-          <Link to="message">
+          <Link className={page === "message" ? styles.activeNav : styles.navLink} to="message">
             <AiOutlineMessage />
           </Link>
         </li>
         <li className={styles.navbarItem}>
-          <Link to="friends">
+          <Link className={page === "friends" ? styles.activeNav : styles.navLink} to="friends">
             <AiOutlineUser />
           </Link>
         </li>
         <li className={styles.navbarItem}>
-          <Link to="saved">
+          <Link className={page === "saved" ? styles.activeNav : styles.navLink} to="saved">
             <GoBookmark />
           </Link>
         </li>
         <li className={styles.navbarItem}>
-          <Link to="settings">
+          <Link className={page === "settings" ? styles.activeNav : styles.navLink} to="settings">
             <IoSettingsOutline />
           </Link>
         </li>
         <li className={styles.navbarItem}>
-          <Link to="logout">
+          <Link className={page === "logout" ? styles.activeNav : styles.navLink} to="logout">
             <IoIosLogOut />
           </Link>
         </li>

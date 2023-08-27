@@ -22,12 +22,20 @@
   text-decoration: none;
 }
 
-.navbarItem a{
-    color: #959596;
+.navbarItem a {
+  color: #959596;
 }
 
 .navbarItem:last-child {
   border-top: 1px solid #959596;
   padding-top: 30px;
   margin-top: 20px;
+}
+
+.navLink:first-child:hover {
+  color: #7fbcf3;
+}
+
+.activeNav:first-child {
+  color: #fff;
 }
