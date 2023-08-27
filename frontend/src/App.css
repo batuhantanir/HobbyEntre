@@ -1,4 +1,8 @@
 .App{
     display: flex;
     justify-content:space-between;
+}#app{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
