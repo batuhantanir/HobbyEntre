@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+
 //ICONS
 import { AiFillHome, AiOutlineMessage, AiOutlineUser } from "react-icons/ai";
 import { IoMdNotificationsOutline, IoIosLogOut } from "react-icons/io";
