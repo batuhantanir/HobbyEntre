@@ -1,0 +1,33 @@
+.container{
+    width: 90%;
+    height: 100px;
+    background-color: #E4E9F2;
+    margin-top: 10px;
+    border: 1px solid #E4E9F2 ;
+    display: flex;
+    
+}
+.User{
+    display: flex;
+        
+    
+    margin-top: 20px;
+}
+.İconSideBar2{
+    font-size: 40px;
+}
+.UserName{
+    font-size: 17px;
+    margin:6px;
+
+}
+.FollowBtn{
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+    background-color:#2E4B9C ;
+    color: #E4E9F2;
+    border-radius: 10px;
+}

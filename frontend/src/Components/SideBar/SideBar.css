@@ -1,0 +1,59 @@
+.Container{
+    width: 28%;
+    height: 400px;
+    background-color: #E4E9F2;
+    border-radius: 20px;
+}
+.SideBarRow{
+    margin: 15px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.Searchİnput{
+    border-radius: 15px;
+    border: 2px solid #bec3cd;
+    background-color: #E4E9F2;
+    padding: 5px;
+    width: 50%;
+    margin: 10px;
+    
+}
+.İconSideBar{
+    font-size: 30px;
+  
+}
+
+
+.İconBtn{
+    background-color: #E4E9F2;
+    border: 1px solid #bec3cd;
+    padding: 5px;
+    border-radius: 10px;
+}
+.İconBtn:hover{
+   transform: scale(1.1);
+}
+.SideBarİtem{
+    width: 100%;
+    
+}
+.SideBarTextRow{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Text1{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.Text2{
+    margin-right: 10px;
+    color:#2E4B9c ;
+    text-decoration: none;
+}
+.SideBarİtem{
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
